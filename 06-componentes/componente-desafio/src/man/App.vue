@@ -12,10 +12,10 @@
 
 <script>
 // Importes components
-import Menu from './Menu.vue'
-import Toolbar from './Toobar.vue'
-import Carousel from './Carosel.vue'
-import Footer from './Footer.vue'
+import Menu from '../components/templete/Menu.vue'
+import Toolbar from '../components/templete/Toobar.vue'
+import Carousel from '../components/wedget/Carosel.vue'
+import Footer from '../components/templete/Footer.vue'
 export default {
 	// Components
 	components: {'app-footer': Footer,
