@@ -13,8 +13,7 @@
                 @nomeMudou="nome = $event"
                 :reinicarFn="reiniciarNome" />
             <app-usuario-editar 
-                v-bind:idade="idade"
-                @idadeMudou="idade = $event" />
+                v-bind:idade="idade"/>
         </div>
     </div>
 </template>
