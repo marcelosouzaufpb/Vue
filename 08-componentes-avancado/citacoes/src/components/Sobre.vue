@@ -7,7 +7,14 @@
 
 <script>
 export default {
-
+    created() {
+        //console.log('created')
+        console.log()
+    },
+    destroyed() {
+       // console.log('created')
+       console.log()
+    }
 }
 </script>
 
