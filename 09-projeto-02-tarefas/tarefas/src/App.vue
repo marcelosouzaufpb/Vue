@@ -1,12 +1,24 @@
 <template>
 	<div id="app">
 		<h1>Tarefas</h1>
+		<task-grid :tasks="tasks"></task-grid>
 	</div>
 </template>
 
 <script>
-export default {
+import TaskGrid from './components/TeaskGrid.vue'
 
+export default {
+	components: { TaskGrid },
+
+	data() {
+		return {
+			task: [
+				{ name: 'Lavar a louça', pending: false },
+				{ name: 'Comprar blusa', pending: true }
+			]
+		}
+	}
 }
 </script>
 
