@@ -41,6 +41,22 @@ export default {
         indice() {
             return Math.abs(this.numero % 3)
         }
+    },
+    created() {
+        //console.log('created')
+        console.log()
+    },
+    destroyed() {
+       // console.log('destroyed')
+       console.log()
+    },
+    activated() {
+        //console.log('activated')
+        console.log()
+    },
+    deactivated() {
+       // console.log('deactivated')
+       console.log()
     }
 }
 </script>

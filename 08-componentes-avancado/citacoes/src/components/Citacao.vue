@@ -10,6 +10,22 @@
 
 <script>
 export default {
+    created() {
+        //console.log('created')
+        console.log()
+    },
+    destroyed() {
+       // console.log('destroyed')
+       console.log()
+    },
+    activated() {
+        //console.log('activated')
+        console.log()
+    },
+    deactivated() {
+       // console.log('deactivated')
+       console.log()
+    }
 }
 </script>
 
