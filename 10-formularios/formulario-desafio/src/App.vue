@@ -26,7 +26,7 @@
 				<samp>{{ nomeCompleto.nome }}</samp>
 			</Rotulo>
 			<Rotulo nome="Sobrenome">
-				<samp>{{ nomeCompleto.sobrenome }}</samp>
+				<samp>{{ nomeCompleto.iosobrenome }}</samp>
 			</Rotulo>
 			<Rotulo nome="Email">
 				<samp>{{ email }}</samp>
